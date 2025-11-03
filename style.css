@@ -4,3 +4,41 @@ html {
     background-color: hsl(47, 88%, 63%);
 
 }
+body {
+    align-items: center;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    border: 2px solid;
+    display: block;
+    max-width: 300px;
+    margin: 40 px auto;
+    border-radius: 15px;
+    box-shadow: 10px 5px;
+    padding: 20px;
+    
+}
+
+.highlight {
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color:hsla(47, 84%, 75%, 0.752);
+    padding: 4px;
+    max-width: 80px;
+    margin-bottom: 10px;
+    max-height: px;
+
+}
+
+
+.pfp {
+    max width: 15px;
+    align-right: 10px;
+
+}
+
+.attribution {
+    padding-top: 30px;
+}
