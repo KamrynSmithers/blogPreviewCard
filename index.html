@@ -5,21 +5,54 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Blog preview card</title>
-
+<style>
+  html {
+      font-family: "Figtree", sans-serif;
+      font-size: 16px;
+      background-color: hsl(47, 88%, 63%);
+    }
+    
+    body {
+      min-height: 100vh;
+    }
+    
+    .container {
+      background-color: hsl(0, 0%, 100%);
+      border: 2px solid;
+      max-width: 300px;
+      border-radius: 15px;
+      box-shadow: 10px 5px;
+    }
+    
+    .highlight {
+      border: 1px solid black;
+      border-radius: 5px;
+      background-color: hsla(47, 84%, 75%, 0.752);
+      max-width: 80px;
+    }
+    
+    .pfp img {
+      max-width: 15px;
+    }
+</style>
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <!--<style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>-->
 </head>
-<body>
-<div class="container">
-  <img class= "yellow" src="assets/images/illustration-article.svg" alt="black, yellow, white art background">
+
+<body class="d-flex align-items-center">
+
+<div class="container mx-auto my-5 p-3">
+  <img class= "yellow rounded mb-3" src="assets/images/illustration-article.svg" alt="black, yellow, white art background">
 <section class="highlight"><h5>Learning</h5></section>
 <p>Published 21 Dec 2023</p>
 <h3>  HTML & CSS foundations</h3>
